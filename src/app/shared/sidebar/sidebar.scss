@@ -1,0 +1,25 @@
+.card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.vh-100 {
+  min-height: 100vh;
+}
+
+
+.sidebar {
+  position: fixed;
+  top: 60px; /* below the fixed header */
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #dee2e6;
+  overflow-y: auto;
+  z-index: 1020;
+  padding: 1rem;
+}
